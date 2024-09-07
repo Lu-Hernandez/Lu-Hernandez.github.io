@@ -1,0 +1,164 @@
+header {
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(7, 7, 7, 0.897);
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+header img {
+    width: 150px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+header ul {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    min-width: 250px;
+}
+div.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 50px;
+
+}
+header ul li a {
+    margin: 10px;
+    color: white;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(247, 15, 15, 0.938);
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+div.contenedor2 a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    list-style: none;
+    margin-bottom: 0px;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+h1 {
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    margin: 10px 0 10px;
+    background-color: rgb(153, 151, 151);
+}
+.img{
+    justify-content: center;
+
+}
+div.subcontenedor img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0 10px;
+    background-color: rgb(153, 151, 151);
+    align-items: center;
+}
+.subcontenedor p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    margin: 10px 0 10px;
+    background-color: rgb(153, 151, 151);
+}
+.subcontenedor h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    margin: 10px 0 10px;
+    background-color: rgb(153, 151, 151);
+}
+.fixie img {
+    width: 100%;
+    margin: 10px 0 10px;
+}
+
+.talla {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 44, 44);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.talla p {
+    color: white;
+    width: 100%;
+}
+
+.contenedor img {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.iframe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: auto;
+}
+
+.contenedor h1 {
+    font-size: auto;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    min-width: 150px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    min-width: auto;
+}
+
+h1 {
+    color: white;
+    align-content: center;
+}
